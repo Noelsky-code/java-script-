@@ -1,5 +1,25 @@
 # 자바스크립트 알고리즘 연습
+## Eslint 사용법
 
+```
+$ npm init
+```
+1. npm init으로 package.json 생성
+```
+$ npm install eslint
+```
+2. eslint 설치 
+```
+$ eslint --init 
+```
+3. eslint 시작 
+4. 여러 질문들 -> 기본 세팅완료
+5. .eslintrc 파일 생성 
+6. 여러 rule들을 추가함
+7. eslint를 실행할 js파일을 지정함
+```
+$ eslint App.js 
+```
 ## 1. Stack, Queue
 Array.prototype에 있는 push()와 pop(),shift()를 이용해서 구현가능. 
 
